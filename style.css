@@ -1,0 +1,46 @@
+.gradient-background {
+    background: linear-gradient(300deg, #e9c7f3, #9662a8, #7952d4);
+    background-size: 180% 180%;
+    animation: gradient-animation 10s ease infinite;
+  }
+  
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+
+#arrow-down {
+    position: relative;
+    top: -35px;
+}
+#arrow-down img {
+    max-width: 80px;
+    width: 100%;
+}
+
+.btn-purple {
+    background-color: #9662a8;
+}
+
+.btn-purple:hover {
+    background-color: #7f3ba8;
+}
+
+/* Fonts */
+.satisfy {
+    font-family: "Satisfy", cursive;
+    font-weight: 500;
+    font-style: normal;
+}
+
+h2.satisfy {
+    color: #7f3ba8;
+}
+  
